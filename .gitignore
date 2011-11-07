@@ -4,3 +4,4 @@ pkg/
 *.xz
 .PKGINFO
 *.s??
+*.1*
