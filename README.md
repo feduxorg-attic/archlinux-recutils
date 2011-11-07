@@ -8,7 +8,7 @@ This man page is informational. It describes how to build the `recutils`
 package for Arch Linux (http://www.archlinux.org/) from the Arch User
 Repository (AUR).
 
-To build the package you can choose between several methods.
+To build the package you can choose between several methods. The package is checked via `namcap`.
 
 * Installing via helper util, e.g. yaourt
 
@@ -20,7 +20,6 @@ To build the package you can choose between several methods.
   `curl -O https://aur.archlinux.org/packages/re/recutils/PKGBUILD
   makepkg`
 
-To check
 
 ## FURTHER DOCUMENTATION
   
