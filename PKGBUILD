@@ -11,9 +11,9 @@ pkgdesc="GNU tools and libraries to access human-editable, text-based databases.
 arch=(i686 x86_64)
 url="http://www.gnu.org/software/recutils/"
 license=('GPL')
-#depends=()
-makedepends=(make)
-optdepends=(openssl curl)
+depends=(libgcrypt curl)
+makedepends=(make) 
+optdepends=(openssl mdbtools)
 #provides=()
 #conflicts=()
 #replaces=()
@@ -34,10 +34,8 @@ build() {
 }
 
 package() {
-  cd "$srcdir/$pkgname-$pkgver"
-
+  cd "$srcdir/$pkgname-$pkgver" 
   make DESTDIR="$pkgdir/" install
-
 }
 
 # vim:set ts=2 sw=2 et:
