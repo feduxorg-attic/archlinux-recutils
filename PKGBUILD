@@ -6,8 +6,8 @@
 # Maintainer: Max Meyer <dev@fedux.org>
 pkgname=recutils
 pkgver=1.4
-pkgrel=1
-pkgdesc="GNU Recutils is a set of tools and libraries to access human-editable, text-based databases"
+pkgrel=2
+pkgdesc="GNU tools and libraries to access human-editable, text-based databases."
 arch=(i686 x86_64)
 url="http://www.gnu.org/software/recutils/"
 license=('GPL')
