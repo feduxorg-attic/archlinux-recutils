@@ -3,7 +3,7 @@
 # NOTE: Please fill out the license field for your package! If it is unknown,
 # then please put 'unknown'.
 
-# Maintainer: Your Name <youremail@domain.com>
+# Maintainer: Max Meyer <dev@fedux.org>
 pkgname=recutils
 pkgver=1.4
 pkgrel=1
