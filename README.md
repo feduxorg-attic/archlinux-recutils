@@ -17,8 +17,8 @@ To build the package you can choose between several methods. The package is chec
   
 * Building with  makepkg
 
-  `curl -O https://aur.archlinux.org/packages/re/recutils/PKGBUILD
-  makepkg`
+  `curl -O https://aur.archlinux.org/packages/re/recutils/PKGBUILD`
+  `makepkg`
 
 
 ## FURTHER DOCUMENTATION
