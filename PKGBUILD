@@ -1,5 +1,9 @@
 # Maintainer: Max Meyer <dev@fedux.org>
 # Contributor: Sven Wick <sven.wick@gmx.de>
+#
+# Please fork and send me a pull request for changes to package build file(s)
+# Url: https://github.com/maxmeyer/archlinux-recutils
+#
 
 pkgname=recutils
 pkgver=1.5
@@ -11,10 +15,6 @@ license=('GPL3')
 depends=(libgcrypt curl)
 makedepends=(make) 
 optdepends=(openssl mdbtools)
-#provides=()
-#conflicts=()
-#replaces=()
-#backup=()
 #options=()
 install=recutils.install
 changelog=ChangeLog
